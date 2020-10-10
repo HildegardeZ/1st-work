@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ONE</title>
+    <style type="text/css">
+        textarea {
+            height: 100px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>注册新用户</h2>
+        <table width="40%">
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" name="name" placeholder="请输入用户名" /></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="pwd" placeholder="请输入密码" /></td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="sex" value="male" checked="checked">男
+                    <input type="radio" name="sex" value="female">女（默认选择男）
+                </td>
+            </tr>
+            <tr>
+                <td>兴趣</td>
+                <td>
+                    计算机<input type="checkbox" name="interest" value="computer">
+                    数学 <input type="checkbox" name="interest" value="math">
+                    化学 <input type="checkbox" name="interest" value="chemistry">
+                    物理 <input type="checkbox" name="interest" value="physics">
+                </td>
+            </tr>
+            <tr>
+                <td>意愿</td>
+                <td>
+                    <select>
+                        <option value="frontend" checked="checked">前端</option>
+                        <option value="background">后端</option>
+                        <option value="Android">安卓</option>
+                        <option value="design">设计</option>
+                        <option value="product">产品</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">自我介绍</td>
+                <td><textarea rows="10" cols="30"></textarea> </td>
+            </tr>
+            <tr>
+                <td height="55px" align="left" colspan="2"><input type="submit" value="提交"><hr/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

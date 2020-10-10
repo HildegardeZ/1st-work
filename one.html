@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE</title>
+    <style type="text/css">
+        .q4-header {
+            box-sizing: border-box;
+            padding: 15px;
+            border: 5px solid pink;
+            height:60px;
+        }
+        .q4-footer {
+            box-sizing: border-box;
+            padding: 15px;
+            border: 5px solid pink;
+            height:60px;
+        }
+
+        .q4-body {
+            overflow: hidden;
+            clear: both;
+            height:400px;
+            width:400px;
+            margin-top:20px;
+            margin-bottom:20px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        .left {
+            box-sizing: border-box;
+            width: 180px;
+            padding: 30px;
+            border: 5px solid lightblue;
+            height: 400px;
+            float: left;
+        }
+        .right {
+            box-sizing: border-box;
+            width: 180px;
+            padding: 30px;
+            border: 5px solid lightblue;
+            height: 400px;
+            float:right;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <p>
+            要求: 查询相关知识将下面模板美化成同名文件夹下面picture.png的样式
+            1. 中间部分水平居中, 文字水平居中, 边框为 5px lightblue
+            2. 头部和尾部要文字水平居中, 高度60px, 边框为 5px 粉色
+        </p>
+    </div>
+    <div>
+        <div class="outter">
+            <div class="q4-header"><center>这里是头部</center></div>
+            <div class="q4-body">
+                <div class="left" >经常遇到的布局</div>
+                <div class="right">右边部分</div>
+            </div>
+            <div class="q4-footer" ><center>这里是尾部</center></div>
+        </div>
+    </div>
+</body>
+
+</html>
